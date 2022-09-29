@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-import * as cdk from 'aws-cdk-lib';
-import { CdkIntroductionInfraStack } from '../lib/cdk-introduction-infra-stack';
+import * as cdk from 'aws-cdk-lib'
+import { CdkIntroductionInfraCoreStack } from '../lib/cdk-introduction-infra-core-stack'
 
-const app = new cdk.App();
-new CdkIntroductionInfraStack(app, 'CdkIntroductionInfraStack');
+const app = new cdk.App()
+new CdkIntroductionInfraCoreStack(app, 'Nae3xCdkIntroductionInfraStack')
